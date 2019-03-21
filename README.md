@@ -19,7 +19,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 ## Resources
 - **ConceptNet**
-  - Dang Nguyen, Wei Luo, Tu Dinh Nguyen, Svetha Venkatesh, Dinh Phung
-  - [[Paper]](https://epubs.siam.org/doi/10.1137/1.9781611975321.35)
-  - [[Python Reference]](https://github.com/nphdang/GE-FSG)
+  - MIT Media Lab and Luminoso Technologies, Inc.
+  - [[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge]](https://arxiv.org/abs/1612.03975)
+  - [[website]](http://conceptnet.io/)
 
