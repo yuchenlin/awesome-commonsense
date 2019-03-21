@@ -46,7 +46,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Description: The seting is similar to multi-choice passage-based question asnwering. Given passages are usually script-based stroies, the correct ansqwer cannot be inferred by literally matching. Answering the questions correctly requires common knowledge that are not obvious in the given script.
   - Example: 
   - Dataset: [SemEval-2018 Task 11](https://competitions.codalab.org/competitions/17184) (an incoming extended shared task will be at EMNLP2019 workshop [COIN](http://www.coli.uni-saarland.de/~mroth/COIN/)).
-  - The Dataset Paper: [[SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge]](http://www.aclweb.org/anthology/S18-1119)  (ACL 2018 SemEval)
+  - Paper: [[SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge]](http://www.aclweb.org/anthology/S18-1119)  (ACL 2018 SemEval)
   
 
 - **Situition Commonsense Reasonig**
@@ -54,7 +54,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Description: The (evaluation) seting is given a situition (a single sentence or a four-sentence story) as input, we need to anticipate which situition (out of multiple choices) will happen next ("story-end prediction" or "story cloze test" or "situition inference"). 
   - Example: 
   - Dataset: [ROCStories](http://cs.rochester.edu/nlp/rocstories/), [SWAG](https://rowanzellers.com/swag/).
-  - The Dataset Papers: 
+  - Papers: 
     - [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326) (EMNLP 2018) 
     - [A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories](https://arxiv.org/abs/1604.01696) (NAACL-HLT 2016)
     - [LSDSem 2017 Shared Task: The Story Cloze Test](http://cs.rochester.edu/~nasrinm/files/Papers/lsdsem17-shared-task.pdf)
@@ -64,11 +64,12 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Description: Given a natural language question (without any passage as context) and multiple answers, we are asked to choose one (extensively) based on cmmonsense knowledge. The main difference is that we have no script as context here. 
   - Example: 
   - Dataset: [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa)
-  - The Dataset Paper: [[CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge]](https://arxiv.org/abs/1811.00937) (NAACL-HLT 2019)
+  - Paper: [[CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge]](https://arxiv.org/abs/1811.00937) (NAACL-HLT 2019)
 
-- **Unsupervised Commonsense Reasoning**
+- **Unsupervised General Commonsense Reasoning**
 
-  - 
+  - [Winograd Schema Challenge(**WSC**)](https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WS.html) is a evaluation dataset (150 cases) that test machines' commonsense reasoning capacity in the sense of whether they can correctly resolve ambiguous coreferences (Pronoun Disambiguation Problems, PDPs).  
+  - [Choice Of Plausible Alternatives (**COPA**)](http://people.ict.usc.edu/~gordon/copa.html) has a evaluation dataset (1000 sentences). Each question is composed of a premise and two alternatives, where the task is to select the alternative that more plausibly has a causal relation with the premise. This can be seen as a special case of "Situition Commonsense Reasonig", where we also infer the causes other than results.
 
 - **Visual Commonsense Reasoning**
 
