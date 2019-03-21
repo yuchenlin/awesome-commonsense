@@ -30,7 +30,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Introduction: WebChild is a large collection of commonsense knowledge, **automatically extracted** and disambiguated from Web contents. WebChild contains _triples that connect nouns with adjectives via fine-grained relations_ like hasShape, hasTaste, evokesEmotion, etc. The arguments of these assertions, nouns and adjectives, are disambiguated by mapping them onto their proper WordNet senses.
   - Authors: Niket Tandon, Gerard de Melo, and Gerhard Weikum
   - Paper: [[WebChild 2.0: Fine-Grained Commonsense Knowledge Distillation] in ACL 2017 (demo)](http://people.mpi-inf.mpg.de/~ntandon/papers/tandon-acl2017-demo.pdf)
-  - [[Website @ MPI-INF]](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/webchild/)
+  - Website: [[https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/webchild/]](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/webchild/)
   
   
 - **ATOMIC**
