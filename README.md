@@ -40,3 +40,18 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Website: [[https://homes.cs.washington.edu/~msap/atomic/]](https://homes.cs.washington.edu/~msap/atomic/)
   
 ## Tasks and Datasets
+
+- **Script-based Commonsense Knowledge Reasonig**
+
+  - ***SemEval-2018 Task 11***
+
+- **Storytelling Commonsense **
+
+- **Situition Commonsense Inference**
+
+- **General Commonsense Reasoning**
+
+
+- **Visual Commonsense Reasoning**
+
+
