@@ -20,7 +20,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 ## Common-Sense Knoweldge Graphs
 - **ConceptNet**
-  - Intro: ConceptNet is a general, human-annotated commonsense knowledge graph, representing common **concepts** (words and phrases) that people use and the [common-sense **relationships**](https://github.com/commonsense/conceptnet5/wiki/Relations) between them. The knowledge in ConceptNet is collected from a variety of resources, including crowd-sourced resources (such as [Wiktionary](https://www.wiktionary.org/) and Open Mind Common Sense), games with a purpose (such as Verbosity and nadya.jp), and expert-created resources (such as [WordNet](https://wordnet.princeton.edu/) and JMDict). ConceptNet is the most widely-used general commonsense knowledge graph, although it is still somewhat noisy and highly incomplete. 
+  - Intro: ConceptNet is a general, human-annotated commonsense knowledge graph, representing common **concepts** (words and phrases) that people use and the [common-sense **relationships**](https://github.com/commonsense/conceptnet5/wiki/Relations) between them. The knowledge in ConceptNet is collected from a variety of resources, including crowd-sourced resources (such as [Wiktionary](https://www.wiktionary.org/) and Open Mind Common Sense), games with a purpose (such as Verbosity and nadya.jp), and expert-created resources (such as [WordNet](https://wordnet.princeton.edu/) and JMDict). ConceptNet is the most widely-used general commonsense knowledge graph. 
   - Authors: MIT Media Lab and Luminoso Technologies, Inc.
   - Paper: [[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge]](https://arxiv.org/abs/1612.03975) in AAAI 2017
   - Website: [[http://conceptnet.io/]](http://conceptnet.io/)
@@ -43,25 +43,35 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 - **Script-based Commonsense Reasonig**
 
-  - Description: The seting is similar to multi-choice passage-based question asnwering. Given passages are usually script-based stroies, and the correct ansqwer cannot be inferred by literally matching. Answering the questions correctly requires common knowledge that are not obvious in the given script.
+  - Description: The seting is similar to multi-choice passage-based question asnwering. Given passages are usually script-based stroies, the correct ansqwer cannot be inferred by literally matching. Answering the questions correctly requires common knowledge that are not obvious in the given script.
   - Example: 
   - Dataset: [SemEval-2018 Task 11](https://competitions.codalab.org/competitions/17184) (an incoming extended shared task will be at EMNLP2019 workshop [COIN](http://www.coli.uni-saarland.de/~mroth/COIN/)).
-  - The Dataset Paper: [[http://www.aclweb.org/anthology/S18-1119]](http://www.aclweb.org/anthology/S18-1119)
+  - The Dataset Paper: [[SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge]](http://www.aclweb.org/anthology/S18-1119)  (ACL 2018 SemEval)
   
 
-- **Situition Commonsense Inference**
+- **Situition Commonsense Reasonig**
 
   - Description: The (evaluation) seting is given a situition (a single sentence or a four-sentence story) as input, we need to anticipate which situition (out of multiple choices) will happen next ("story-end prediction" or "story cloze test" or "situition inference"). 
   - Example: 
   - Dataset: [ROCStories](http://cs.rochester.edu/nlp/rocstories/), [SWAG](https://rowanzellers.com/swag/).
   - The Dataset Papers: 
-    - [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326) (EMNLP 2018, AI2&UW) 
+    - [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326) (EMNLP 2018) 
     - [A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories](https://arxiv.org/abs/1604.01696) (NAACL-HLT 2016)
     - [LSDSem 2017 Shared Task: The Story Cloze Test](http://cs.rochester.edu/~nasrinm/files/Papers/lsdsem17-shared-task.pdf)
 
 - **General Commonsense Reasoning**
+ 
+  - Description: Given a natural language question (without any passage as context) and multiple answers, we are asked to choose one (extensively) based on cmmonsense knowledge. The main difference is that we have no script as context here. 
+  - Example: 
+  - Dataset: [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa)
+  - The Dataset Paper: [[CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge]](https://arxiv.org/abs/1811.00937) (NAACL-HLT 2019)
 
+- **Unsupervised Commonsense Reasoning**
+
+  - 
 
 - **Visual Commonsense Reasoning**
 
+- **Commonsense Knowledge Graph Representation**
 
+- **Commonsense Knowledge Graph Construction**
