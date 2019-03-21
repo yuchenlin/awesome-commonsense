@@ -22,20 +22,20 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 - **ConceptNet**
   - Introduction: ConceptNet is a general, human-annotated commonsense knowledge graph, representing common **concepts** (words and phrases) that people use and the [common-sense **relationships**](https://github.com/commonsense/conceptnet5/wiki/Relations) between them. The knowledge in ConceptNet is collected from a variety of resources, including crowd-sourced resources (such as Wiktionary and Open Mind Common Sense), games with a purpose (such as Verbosity and nadya.jp), and expert-created resources (such as WordNet and JMDict). ConceptNet is the most widely-used general commonsense knowledge graph, although it is still somewhat noisy and highly incomplete. 
   - Authors: MIT Media Lab and Luminoso Technologies, Inc.
-  - Paper: [[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge] in AAAI 2017](https://arxiv.org/abs/1612.03975)
+  - Paper: [[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge]](https://arxiv.org/abs/1612.03975) in AAAI 2017
   - Website: [[http://conceptnet.io/]](http://conceptnet.io/)
 
 
 - **WebChild**
   - Introduction: WebChild is a large collection of commonsense knowledge, **automatically extracted** and disambiguated from Web contents. WebChild contains _triples that connect nouns with adjectives via fine-grained relations_ like hasShape, hasTaste, evokesEmotion, etc. The arguments of these assertions, nouns and adjectives, are disambiguated by mapping them onto their proper WordNet senses.
   - Authors: Niket Tandon, Gerard de Melo, and Gerhard Weikum
-  - Paper: [[WebChild 2.0: Fine-Grained Commonsense Knowledge Distillation] in ACL 2017 (demo)](http://people.mpi-inf.mpg.de/~ntandon/papers/tandon-acl2017-demo.pdf)
+  - Paper: [[WebChild 2.0: Fine-Grained Commonsense Knowledge Distillation]](http://people.mpi-inf.mpg.de/~ntandon/papers/tandon-acl2017-demo.pdf) in ACL 2017 (demo)
   - [[Website @ MPI-INF]](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/webchild/)
   
   
 - **ATOMIC**
   - Introduction: ATOMIC is a commonsense knowledge base that focuses on inferential knowledge organized as typed **if-then** relations with variables (e.g., “if X pays Y a compliment, then Y will likely return the compliment”). It has nine if-then relation types to distinguish causes vs. effects, agents vs. themes, voluntary vs. involuntary events, and actions vs. mental states. Most assertions are about human social behaviors. 
   - Authors: Maarten Sap et al. (AI2 & UW)
-  - Paper: [[ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning] in AAAI 2019](https://arxiv.org/pdf/1811.00146.pdf)
+  - Paper: [[ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning]](https://arxiv.org/pdf/1811.00146.pdf)  in AAAI 2019
   - Website: [[https://homes.cs.washington.edu/~msap/atomic/]](https://homes.cs.washington.edu/~msap/atomic/)
   
