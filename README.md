@@ -45,8 +45,8 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
   - Description: The seting is similar to multi-choice question asnwering based on a passage, while given passages are usually script-based stroies and the correct ansqwer cannot be inferred by literally matching. Answering the questions correctly requires common knowledge that are not obvious in the given script.
   - Dataset: [SemEval-2018 Task 11](https://competitions.codalab.org/competitions/17184) (an incoming extended shared task will be at EMNLP2019 workshop [COIN](http://www.coli.uni-saarland.de/~mroth/COIN/)).
-  - The Dataset Paper: http://www.aclweb.org/anthology/S18-1119
-  - Model Papers: 
+  - The Dataset Paper: [[http://www.aclweb.org/anthology/S18-1119]](http://www.aclweb.org/anthology/S18-1119)
+
   
 
 - **Storytelling Commonsense**
