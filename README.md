@@ -6,7 +6,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 <p align="center">
   <img src="https://www.darpa.mil/DDM_Gallery/teaching-machines-619-316.jpg">
-  <br><span>Research in MCS aims to create machine common sense services that can help break down the barrier between the narrowly focused AI applications of today and the more general AI applications of the future. https://www.darpa.mil/news-events/2018-10-11</span>
+  <br><span>Research in MCS aims to create machine common sense services that can help break down the barrier between the narrowly focused AI applications of today and the more general AI applications of the future. <br> https://www.darpa.mil/news-events/2018-10-11</span>
 </p>
 
 ##### Contents  
