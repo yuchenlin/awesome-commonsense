@@ -12,8 +12,9 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 ##### Contents  
 
 1. [Resources](#resources)  
-2. [Papers](#papers)
-3. [Tutorials](#tutorials)
+2. [Datasets](#datasets)
+3. [Papers](#papers)
+4. [Tutorials](#tutorials)
 
 
 
@@ -28,6 +29,13 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 - **WebChild**
   - Introduction: WebChild is a large collection of commonsense knowledge, **automatically extracted** and disambiguated from Web contents. WebChild contains _triples that connect nouns with adjectives via fine-grained relations_ like hasShape, hasTaste, evokesEmotion, etc. The arguments of these assertions, nouns and adjectives, are disambiguated by mapping them onto their proper WordNet senses.
   - Authors: Niket Tandon, Gerard de Melo, and Gerhard Weikum
-  - Paper: [[WebChild 2.0: Fine-Grained Commonsense Knowledge Distillation] in ACL 2017](http://people.mpi-inf.mpg.de/~ntandon/papers/tandon-acl2017-demo.pdf)
+  - Paper: [[WebChild 2.0: Fine-Grained Commonsense Knowledge Distillation] in ACL 2017 (demo)](http://people.mpi-inf.mpg.de/~ntandon/papers/tandon-acl2017-demo.pdf)
   - [[Website @ MPI-INF]](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/webchild/)
+  
+  
+- **ATOMIC**
+  - Introduction: ATOMIC is a commonsense knowledge base that focuses on inferential knowledge organized as typed **if-then** relations with variables (e.g., “if X pays Y a compliment, then Y will likely return the compliment”). It has nine if-then relation types to distinguish causes vs. effects, agents vs. themes, voluntary vs. involuntary events, and actions vs. mental states. Most assertions are about human social behaviors. 
+  - Authors: Maarten Sap et al. (AI2 & UW)
+  - Paper: [[ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning] in AAAI 2019](https://arxiv.org/pdf/1811.00146.pdf)
+  - Website: [[https://homes.cs.washington.edu/~msap/atomic/]](https://homes.cs.washington.edu/~msap/atomic/)
   
