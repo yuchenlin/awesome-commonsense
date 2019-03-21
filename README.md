@@ -20,7 +20,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 ## Resources
 - **ConceptNet**
-  - Introduction: ConceptNet is a general, human-annotated commonsense knowledge graph, representing common **concepts** (words and phrases) that people use and the [common-sense **relationships**](https://github.com/commonsense/conceptnet5/wiki/Relations) between them. The knowledge in ConceptNet is collected from a variety of resources, including crowd-sourced resources (such as Wiktionary and Open Mind Common Sense), games with a purpose (such as Verbosity and nadya.jp), and expert-created resources (such as WordNet and JMDict). ConceptNet is the most widely-used general commonsense knowledge graph, although it is still somewhat noisy and highly incomplete. 
+  - Introduction: ConceptNet is a general, human-annotated commonsense knowledge graph, representing common **concepts** (words and phrases) that people use and the [common-sense **relationships**](https://github.com/commonsense/conceptnet5/wiki/Relations) between them. The knowledge in ConceptNet is collected from a variety of resources, including crowd-sourced resources (such as [Wiktionary](https://www.wiktionary.org/) and Open Mind Common Sense), games with a purpose (such as Verbosity and nadya.jp), and expert-created resources (such as [WordNet](https://wordnet.princeton.edu/) and JMDict). ConceptNet is the most widely-used general commonsense knowledge graph, although it is still somewhat noisy and highly incomplete. 
   - Authors: MIT Media Lab and Luminoso Technologies, Inc.
   - Paper: [[ConceptNet 5.5: An Open Multilingual Graph of General Knowledge]](https://arxiv.org/abs/1612.03975) in AAAI 2017
   - Website: [[http://conceptnet.io/]](http://conceptnet.io/)
