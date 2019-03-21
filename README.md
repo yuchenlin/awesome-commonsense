@@ -12,7 +12,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 ##### Contents  
 
 1. [Common-Sense Knoweldge Graphs](#cskgs)  
-2. [Datasets](#datasets)
+2. [Tasks & Datasets](#datasets)
 3. [Papers](#papers)
 4. [Tutorials](#tutorials)
 
@@ -39,3 +39,4 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   - Paper: [[ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning]](https://arxiv.org/pdf/1811.00146.pdf)  in AAAI 2019
   - Website: [[https://homes.cs.washington.edu/~msap/atomic/]](https://homes.cs.washington.edu/~msap/atomic/)
   
+## Tasks and Datasets
