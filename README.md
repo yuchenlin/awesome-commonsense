@@ -51,11 +51,13 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
 
 - **Situition Commonsense Inference**
 
-  - Description: The seting is given a situition (a single sentence or a four-sentence story) as input, we need to anticipate which situition (out of multiple choices) will happen next ("story-end prediction" or "story cloze test" or "situition inference"). 
+  - Description: The (evaluation) seting is given a situition (a single sentence or a four-sentence story) as input, we need to anticipate which situition (out of multiple choices) will happen next ("story-end prediction" or "story cloze test" or "situition inference"). 
   - Example: 
-  - Dataset: [SemEval-2018 Task 11](https://competitions.codalab.org/competitions/17184) (an incoming extended shared task will be at EMNLP2019 workshop [COIN](http://www.coli.uni-saarland.de/~mroth/COIN/)).
-  - The Dataset Paper: [[http://www.aclweb.org/anthology/S18-1119]](http://www.aclweb.org/anthology/S18-1119)
-
+  - Dataset: [ROCStories](http://cs.rochester.edu/nlp/rocstories/), [SWAG](https://rowanzellers.com/swag/).
+  - The Dataset Papers: 
+    - [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](https://arxiv.org/abs/1808.05326) (EMNLP 2018, AI2&UW) 
+    - [A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories](https://arxiv.org/abs/1604.01696) (NAACL-HLT 2016)
+    - [LSDSem 2017 Shared Task: The Story Cloze Test](http://cs.rochester.edu/~nasrinm/files/Papers/lsdsem17-shared-task.pdf)
 
 - **General Commonsense Reasoning**
 
