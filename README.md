@@ -34,7 +34,7 @@ A collection of papers and resources about common-sense knowledge graphs (CSKG) 
   
   
 - **ATOMIC**
-  - Introduction: ATOMIC is a commonsense knowledge base that focuses on inferential knowledge organized as typed **if-then** relations with variables (e.g., “if X pays Y a compliment, then Y will likely return the compliment”). It has nine if-then relation types to distinguish causes vs. effects, agents vs. themes, voluntary vs. involuntary events, and actions vs. mental states. Most assertions are about human social behaviors. 
+  - Introduction: ATOMIC, extended from [Event2Mind](https://uwnlp.github.io/event2mind/), is a commonsense knowledge base that focuses on inferential knowledge organized as typed **if-then** relations with variables (e.g., “if X pays Y a compliment, then Y will likely return the compliment”). It has nine if-then relation types to distinguish causes vs. effects, agents vs. themes, voluntary vs. involuntary events, and actions vs. mental states. Most assertions are about human social behaviors. 
   - Authors: Maarten Sap et al. (AI2 & UW)
   - Paper: [[ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning]](https://arxiv.org/pdf/1811.00146.pdf)  in AAAI 2019
   - Website: [[https://homes.cs.washington.edu/~msap/atomic/]](https://homes.cs.washington.edu/~msap/atomic/)
